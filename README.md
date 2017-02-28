@@ -17,4 +17,5 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 ## Sites e blogs
 
+* [Oracle Dev Gym - Desafios pela comunidade](https://plsqlchallenge.oracle.com)
 * [JAVA, SQL AND JOOQ](https://blog.jooq.org/)

@@ -13,7 +13,11 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 * [Trocar encoding e language (NLS_LANG)](http://docs.oracle.com/cd/E12102_01/books/AnyInstAdm784/AnyInstAdmPreInstall18.html)
 
 
+## Documentação e links oficiais
 
+Aqui estão links para documentação oficial. Cada um dos tópicos podem ser baixados individualmente em pdf ou epub.
+
+* [Oracle 11g](https://docs.oracle.com/cd/E11882_01/nav/portal_booklist.htm)
 
 ## Sites e blogs
 

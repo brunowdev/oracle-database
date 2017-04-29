@@ -93,3 +93,5 @@ RANDOMUUID()
 --------------------------------------------------------------------------------
 ef225955-6da1-49f4-8a17-61606ea1abc1
 ```
+
+[Mais sobre o UUID e desempenho desta função](http://stackoverflow.com/questions/13951576/how-to-generate-a-version-4-random-uuid-on-oraclehttp://stackoverflow.com/questions/13951576/how-to-generate-a-version-4-random-uuid-on-oracle)

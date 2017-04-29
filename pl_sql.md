@@ -14,3 +14,8 @@ Após definir as variáveis, você pode setar o valor explicitamente:
 begin
   select 1909, 'mil novecentos e nove' into :id, :name from dual;
 end;
+
+Você também pode setar o valor pela função exec:
+
+exec :id := 1909
+exec :name := 'mil novecentos e nove'

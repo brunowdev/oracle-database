@@ -100,15 +100,8 @@ ef225955-6da1-49f4-8a17-61606ea1abc1
 
 O Oracle possui um pacote chamado **DBMS_RANDOM** que serve para geração de dados aleatórios númericos e alfa numéricos.
 
-
-Função      Retorno     
-----        ------------ 
-RANDOM      gera números aleatórios      
-VALUE       gera números aleatórios com o alcance recbido. Por padrão de 0 à 1 se nenhum parâmetro for passado
-STRING      gera strings capitalizadas ou não        
-
-
-| Command | Description |
+| Função | Retorno |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| RANDOM | gera números aleatórios |
+| VALUE | gera números aleatórios com o alcance recbido. Por padrão de 0 à 1 se nenhum parâmetro for passado |
+| STRING | gera strings capitalizadas ou não |

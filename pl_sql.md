@@ -3,7 +3,7 @@
 Este arquivo possui dicas com exemplos em SQL
 
 [Como usar o binding](#Comousarobinding)
-[Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando uma função em Java que pode ser utilizada dentro do SQL)
+[Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
 
 ## Como usar o binding [Comousarobinding] ##
 
@@ -50,7 +50,7 @@ end;
 [Mais sobre o binding](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
 
 
-## Criando uma função em Java que pode ser utilizada dentro do SQL [CriandoumafunçãoemJavaquepodeserutilizadadentrodoSQL] ##
+## Criando uma função em Java que pode ser utilizada dentro do SQL ##
 
 Em alguns casos, é vantajoso ou mesmo a única solução viável utilizar um recurso da linguagem dentro do banco de dados. No caso do Java, pode ser criada uma classe com 
 métodos que poderão ser vinculados a funções que serão chamadas dentro de instruções SQL.

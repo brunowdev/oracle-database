@@ -130,3 +130,8 @@ Gera uma string capitaliza de 35 caracteres
 ```sql
 select dbms_random.string('U', 35) str from dual;
 ```
+
+Gera uma string descapitaliza de 35 caracteres
+```sql
+select dbms_random.string('L', 35) str from dual;
+```

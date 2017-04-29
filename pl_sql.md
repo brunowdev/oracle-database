@@ -44,7 +44,7 @@ begin
 end;
 ```
 
-[Exemplo original](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
+[Mais sobre o binding](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
 
 
 # Criando uma função em Java que pode ser utilizada dentro do SQL

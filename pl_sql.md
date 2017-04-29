@@ -106,3 +106,9 @@ Função      Retorno
 RANDOM      gera números aleatórios      
 VALUE       gera números aleatórios com o alcance recbido. Por padrão de 0 à 1 se nenhum parâmetro for passado
 STRING      gera strings capitalizadas ou não        
+
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |

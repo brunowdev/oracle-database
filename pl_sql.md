@@ -2,7 +2,7 @@
 
 Este arquivo possui dicas com exemplos em SQL
 
-[Como usar o binging](#Como usar o binding)
+[Como usar o binging][#Como usar o binding]
 
 #Como usar o binding
 

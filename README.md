@@ -15,6 +15,8 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 ## SQL Plus
 
+* [Formatação do SQL no console](http://stackoverflow.com/questions/188118/how-do-i-format-my-oracle-queries-so-the-columns-dont-wrap)
+
 
 ## Documentação e links oficiais
 

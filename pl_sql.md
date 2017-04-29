@@ -140,3 +140,8 @@ Gera uma string alfanumérica de 20 caracteres com caracteres maíusculos e min�
 ```sql
 select dbms_random.string('A', 20) str from dual;
 ```
+
+Gera uma string alfanumérica de 20 caracteres com caracteres maíusculos
+```sql
+select dbms_random.string('X', 20) str from dual;
+```

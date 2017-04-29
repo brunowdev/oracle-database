@@ -145,3 +145,11 @@ Gera uma string alfanumérica de 20 caracteres com caracteres maíusculos
 ```sql
 select dbms_random.string('X', 20) str from dual;
 ```
+
+
+Gera uma string alfanumérica de 20 caracteres considerando qualquer caractere que pode ser impresso no console
+```sql
+select dbms_random.string('P', 20) str from dual;
+```
+
+[Mais sobre funções de caracteres](http://www.databasejournal.com/features/oracle/article.php/3341051/Generating-random-numbers-and-strings-in-Oracle.htm)

@@ -36,11 +36,11 @@ create table sqlplus_binding(
 );
 ```
 
-// Considerando que você setou os bingins com uma das formas demonstradas, o insert abaixo irá funcionar.
+Considerando que você setou os bingins com uma das formas demonstradas, o insert abaixo irá funcionar.
 
 ```sql
 begin
-  insert into sqlplus_binding values (:id, :name)
+  insert into sqlplus_binding values (:id, :name) 
 end;
 ```
 

@@ -1,4 +1,4 @@
-# Oracle Database
+# PLSQL - Oracle
 
 Este arquivo possui dicas com exemplos em SQL
 

@@ -70,4 +70,26 @@ AS
 
 Na última linha, a "/", é responsável por finalizar o comando.
 
-Após criar a classe e a função que irá 
+Após criar a classe e a função que iremos utilizar, vamos vincular em uma função SQL que poderá ser utilizada sempre que necessário.
+
+```sql
+CREATE OR REPLACE FUNCTION RandomUUID
+    RETURN VARCHAR2
+    AS LANGUAGE JAVA
+    NAME 'RandomUUID.create() return java.lang.String';
+    /
+ ```
+
+ Com a função criada, podemos chamá-la da seguinte forma:
+
+```sql
+SELECT randomUUID() FROM DUAL;
+```
+
+A saída será parecida com:
+
+```sql
+RANDOMUUID()
+--------------------------------------------------------------------------------
+ef225955-6da1-49f4-8a17-61606ea1abc1
+```

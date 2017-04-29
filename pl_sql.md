@@ -2,7 +2,9 @@
 
 Este arquivo possui dicas com exemplos em SQL
 
-# Como usar o binding
+[Como usar o binging](#Como usar o binding)
+
+#Como usar o binding
 
 Primeiro você deve criar as variáveis que serão o binding:
 
@@ -145,7 +147,6 @@ Gera uma string alfanumérica de 20 caracteres com caracteres maíusculos
 ```sql
 select dbms_random.string('X', 20) str from dual;
 ```
-
 
 Gera uma string alfanumérica de 20 caracteres considerando qualquer caractere que pode ser impresso no console
 ```sql

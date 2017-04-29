@@ -3,6 +3,7 @@
 Este arquivo possui dicas com exemplos em SQL
 
 [Como usar o binding](#Comousarobinding)
+[Criando uma função em Java que pode ser utilizada dentro do SQL](#CriandoumafunçãoemJavaquepodeserutilizadadentrodoSQL)
 
 ## Como usar o binding ##
 

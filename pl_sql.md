@@ -3,7 +3,7 @@
 Este arquivo possui dicas com exemplos em SQL
 
 [Como usar o binding](#Comousarobinding)
-[Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
+[Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-funcao-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
 
 ## Como usar o binding [Comousarobinding] ##
 

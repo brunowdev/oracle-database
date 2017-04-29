@@ -11,6 +11,7 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 * [Trocar porta padrão 8080](http://stackoverflow.com/questions/142868/change-oracle-port-from-port-8080)
 * [Trocar encoding e language (NLS_LANG)](http://docs.oracle.com/cd/E12102_01/books/AnyInstAdm784/AnyInstAdmPreInstall18.html)
+* [Trocar senha de outros schemas com SYSDBA](https://docs.oracle.com/cd/E18283_01/appdev.112/e10766/tdddg_connecting.htm)
 
 
 ## SQL Plus

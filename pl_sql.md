@@ -45,3 +45,25 @@ end;
 ```
 
 [Exemplo original](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
+
+
+# Criando uma função em Java que pode ser utilizada dentro do SQL
+
+Em alguns casos, é vantajoso ou mesmo a única solução viável utilizar um recurso da linguagem dentro do banco de dados. No caso do Java, pode ser criada uma classe com 
+métodos que poderão ser vinculados a funções que serão chamadas dentro de instruções SQL.
+
+```sql
+CREATE OR REPLACE AND COMPILE
+JAVA SOURCE NAMED "RandomUUID"
+AS 
+    public class RandomUUID
+    {
+        public static String create()
+        {
+        return java.util.UUID.randomUUID().toString();
+        }
+    }
+/
+```
+
+Na última linha, a "/", é responsável por finalizar o comando.

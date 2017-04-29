@@ -4,7 +4,7 @@ Este arquivo possui dicas com exemplos em SQL
 
 [Como usar o binging][#Como usar o binding]
 
-#Como usar o binding
+# Como usar o binding #
 
 Primeiro você deve criar as variáveis que serão o binding:
 

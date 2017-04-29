@@ -52,7 +52,7 @@ end;
 Em alguns casos, é vantajoso ou mesmo a única solução viável utilizar um recurso da linguagem dentro do banco de dados. No caso do Java, pode ser criada uma classe com 
 métodos que poderão ser vinculados a funções que serão chamadas dentro de instruções SQL.
 
-Abaixo, veremos um exemplo de uma função em Java que gera um UUID.
+Abaixo, veremos um exemplo de uma função em Java que gera um [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier).
 
 ```sql
 CREATE OR REPLACE AND COMPILE

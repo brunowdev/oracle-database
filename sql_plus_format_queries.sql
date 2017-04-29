@@ -1,3 +1,4 @@
+/* Executar estes comandos dentro do console do SQL Plus, eles serão aplicados na sessão */
 SET NEWPAGE NONE
 SET PAGESIZE 0
 SET SPACE 0

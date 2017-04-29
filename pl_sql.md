@@ -104,4 +104,14 @@ O Oracle possui um pacote chamado **DBMS_RANDOM** que serve para geração de da
 | --- | --- |
 | RANDOM | gera números aleatórios |
 | VALUE | gera números aleatórios com o alcance recbido. Por padrão de 0 à 1 se nenhum parâmetro for passado |
-| STRING | gera strings capitalizadas ou não |
+| STRING | gera strings capitalizadas ou não (uppercase ou lowercase)|
+
+Gera um número aleatório positivo ou negativo
+```sql
+select dbms_random.random from dual;
+```
+
+Gera um número aleatório entre 0 e 1
+```sql
+select dbms_random.value from dual;
+```

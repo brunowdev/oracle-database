@@ -2,9 +2,9 @@
 
 Este arquivo possui dicas com exemplos em SQL
 
-[Como usar o binging][#Como usar o binding]
+[Como usar o binging][#binding]
 
-# Como usar o binding #
+# Como usar o binding [binding] #
 
 Primeiro você deve criar as variáveis que serão o binding:
 

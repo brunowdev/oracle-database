@@ -346,7 +346,6 @@ O
 
 ```
 
-
 Concatenar **duas** strings
 
 ```sql
@@ -356,4 +355,23 @@ CONCAT('BRUNO','WDEV')
 ---------------------------
 brunowdev
 
+```
+
+Concatenar dois **CLOBs**
+
+```sql
+set serveroutput on
+
+DECLARE
+ clob1 CLOB := TO_CLOB('bruno');
+ clob2 CLOB := TO_CLOB('wdev');
+ clob3 CLOB;
+BEGIN
+  SELECT CONCAT(clob1, clob2)
+  INTO clob3
+  FROM DUAL;
+
+  dbms_output.put_line(clob3);
+END;
+/
 ```

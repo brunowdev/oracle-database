@@ -1,6 +1,6 @@
 # Comandos úteis
 
-Este arquivo possui comandos úteis no dia a dia
+Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
 
 Exibe todos os parâmetros do banco
@@ -21,8 +21,4 @@ select * from dba_users OU select username from dba_users
 Lista todos os usuários/schemas, ids e data de criação
 ```sql
 select * from all_users
-```
-
-```sql
-select * from v$parameter;
 ```

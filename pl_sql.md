@@ -448,3 +448,5 @@ ICOL$
 
 
 ```
+
+[Mais funções de manipulação de strings](http://psoug.org/reference/string_func.html)

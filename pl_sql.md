@@ -301,3 +301,12 @@ SELECT(CHR(98)) FROM DUAL;
 b
 ```
 
+Selecionando mais de um caractere na mesma consulta:
+```sql
+SELECT(CHR(98) || CHR(114) || CHR(117) || CHR(110) || CHR(111) || CHR(119) || CHR(100) || CHR(101) || CHR(119)) FROM DUAL;
+
+(CHR(98)||CHR(114)||CHR(117
+---------------------------
+brunowdew
+
+```

@@ -263,7 +263,7 @@ INITCAP('brunowdev')
 Brunowdev
 ```
 
-Abaixo seguem as mesmas funções, porém, agora as funções possuem o prefixo **NLS**, ou seja, elas irão formatar de acordo com as regras do **LOCALE** e **ENCODING** definidos.
+Abaixo seguem as mesmas funções, porém, agora as funções possuem o prefixo **NLS**, ou seja, elas irão formatar de acordo com as regras do **LOCALE** e **ENCODING** definidos. [Aqui](http://stackoverflow.com/questions/19028604/diffenrence-between-nls-upper-and-upper) você pode ver sobre alguns problemas ao converter para outro encoding.
 
 ```sql
 SELECT NLS_UPPER('brunowdev') FROM DUAL;

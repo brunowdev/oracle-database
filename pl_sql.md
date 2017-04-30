@@ -3,7 +3,7 @@
 Este arquivo possui dicas com exemplos em SQL
 
 <a href='#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL' id='installation-guide' class='anchor' aria-hidden='true'>Installation guide</a>
-<h2 id="Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQLr">My header</h2>
+<h2 id="Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL">My header</h2>
 [Como usar o binding](#Comousarobinding)
 [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
 

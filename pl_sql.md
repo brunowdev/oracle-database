@@ -3,7 +3,7 @@
 Este arquivo possui dicas com exemplos em SQL
 
 <a href='#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL' id='installation-guide' class='anchor' aria-hidden='true'>Installation guide</a>
-<h2 id="Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL">My header</h2>
+
 [Como usar o binding](#Comousarobinding)
 [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
 
@@ -51,9 +51,7 @@ end;
 
 [Mais sobre o binding](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
 
-
-[Read our installation guide](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
-##Criando uma função em Java que pode ser utilizada dentro do SQL (#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
+<h2 id="Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL">Criando uma função em Java que pode ser utilizada dentro do SQL</h2>
 
 Em alguns casos, é vantajoso ou mesmo a única solução viável utilizar um recurso da linguagem dentro do banco de dados. No caso do Java, pode ser criada uma classe com 
 métodos que poderão ser vinculados a funções que serão chamadas dentro de instruções SQL.

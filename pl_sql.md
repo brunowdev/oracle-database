@@ -310,3 +310,38 @@ SELECT(CHR(98) || CHR(114) || CHR(117) || CHR(110) || CHR(111) || CHR(119) || CH
 brunowdew
 
 ```
+
+Retorna a primeira ocorrência não nula em uma tupla. Para testar, será criada uma tabela de teste.
+
+```sql
+CREATE TABLE teste_coalesce (
+  coluna1  VARCHAR2(1),
+  coluna2  VARCHAR2(1),
+  coluna3  VARCHAR2(1)
+);
+```
+
+Serão inseridos 5 registros para demonstrar a função.
+
+```sql
+INSERT INTO teste_coalesce VALUES (NULL, 'B', NULL);
+INSERT INTO teste_coalesce VALUES ('R', NULL, 'N');
+INSERT INTO teste_coalesce VALUES (NULL, NULL, 'U');
+INSERT INTO teste_coalesce VALUES ('N', 'Z', 'J');
+INSERT INTO teste_coalesce VALUES (NULL, NULL, 'O');
+```
+
+Fazendo o select abaixo, é possível ver que a função retorna sempre a primeira ocorrência não nula do registro.
+
+```sql
+SQL> SELECT COALESCE(coluna1, coluna2, coluna3) FROM teste_coalesce;
+
+COA
+---
+B
+R
+U
+N
+O
+
+```

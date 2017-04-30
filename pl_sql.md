@@ -5,7 +5,7 @@ Este arquivo possui dicas com exemplos em SQL
 [Como usar o binding](#Comousarobinding)
 [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
 
-## Como usar o binding [Comousarobinding] ##
+<h2 id="Comousarobinding">Como usar o binding</h2>
 
 Primeiro você deve criar as variáveis que serão o binding:
 

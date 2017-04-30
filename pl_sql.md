@@ -2,9 +2,10 @@
 
 Este arquivo possui dicas com exemplos em SQL
 
-[Como usar o binding](#Comousarobinding)
-[Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
-[Gerar caracteres e números aleatórios](#gcna)
+## Tópicos
+1. [Como usar o binding](#Comousarobinding)
+2. [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
+3. [Gerar caracteres e números aleatórios](#gcna)
 
 <h2 id="Comousarobinding">Como usar o binding</h2>
 

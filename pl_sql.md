@@ -375,3 +375,15 @@ BEGIN
 END;
 /
 ```
+
+
+Converter um conjunto de caracteres para outro encoding. É normal a quebra de alguns caracteres.
+
+```sql
+SELECT CONVERT('Ä Ê Í Õ Ø A B C D E','US7ASCII','WE8ISO8859P1') FROM DUAL;
+
+CONVERT('┬┐┬┐┬┐┬┐ABCDE','US7ASCII','WE8ISO8859P1'
+---------------------------------------------
+? ??? A B C D E
+
+```

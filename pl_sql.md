@@ -334,7 +334,7 @@ INSERT INTO teste_coalesce VALUES (NULL, NULL, 'O');
 Fazendo o select abaixo, é possível ver que a função retorna sempre a primeira ocorrência não nula do registro.
 
 ```sql
-SQL> SELECT COALESCE(coluna1, coluna2, coluna3) FROM teste_coalesce;
+SELECT COALESCE(coluna1, coluna2, coluna3) FROM teste_coalesce;
 
 COA
 ---
@@ -343,5 +343,17 @@ R
 U
 N
 O
+
+```
+
+
+Concatenar **duas** strings
+
+```sql
+SELECT CONCAT('bruno', 'wdev') FROM DUAL;
+
+CONCAT('BRUNO','WDEV')
+---------------------------
+brunowdev
 
 ```

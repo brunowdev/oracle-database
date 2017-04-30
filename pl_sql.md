@@ -4,6 +4,7 @@ Este arquivo possui dicas com exemplos em SQL
 
 [Como usar o binding](#Comousarobinding)
 [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
+[Gerar caracteres e números aleatórios](#gcna)
 
 <h2 id="Comousarobinding">Como usar o binding</h2>
 
@@ -98,7 +99,7 @@ ef225955-6da1-49f4-8a17-61606ea1abc1
 
 [Mais sobre o UUID e desempenho desta função](http://stackoverflow.com/questions/13951576/how-to-generate-a-version-4-random-uuid-on-oraclehttp://stackoverflow.com/questions/13951576/how-to-generate-a-version-4-random-uuid-on-oracle)
 
-# Gerar caracteres e números aleatórios
+<h2 id="gcna">Gerar caracteres e números aleatórios</h2>
 
 O Oracle possui um pacote chamado **DBMS_RANDOM** que serve para geração de dados aleatórios númericos e alfa numéricos.
 

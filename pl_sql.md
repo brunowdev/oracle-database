@@ -6,6 +6,7 @@ Este arquivo possui dicas com exemplos em SQL
 1. [Como usar o binding](#htub)
 2. [Criando uma função em Java que pode ser utilizada dentro do SQL](#cfj)
 3. [Gerar caracteres e números aleatórios](#gcna)
+4. [Funções de string e manipulação de caracteres](#fsmc)
 
 <h2 id="htub">Como usar o binding</h2>
 
@@ -193,3 +194,8 @@ vV>4;.Jp8Tu[lJSHSgchx1~;M!>$ga]t$"4
 ```
 
 [Mais sobre funções de caracteres](http://www.databasejournal.com/features/oracle/article.php/3341051/Generating-random-numbers-and-strings-in-Oracle.htm)
+
+
+<h2 id="fsmc">Funções de string e manipulação de caracteres</h2>
+
+Esta seção contém funções de manipulação de caracteres.

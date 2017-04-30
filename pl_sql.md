@@ -118,6 +118,10 @@ select dbms_random.random from dual;
 Gera um número aleatório entre 0 e 1
 ```sql
 select dbms_random.value from dual;
+
+     VALUE
+----------
+         0
 ```
 
 Gera um número aleatório entre 0 e 500

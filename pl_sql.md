@@ -290,3 +290,14 @@ NLS_INITCAP('brunowdev')
 ---------------------------
 Brunowdev
 ```
+
+Obter o caractere com base no código da tabela ASCII:
+
+```sql
+SELECT(CHR(98)) FROM DUAL;
+
+(CH
+---------------------------
+b
+```
+

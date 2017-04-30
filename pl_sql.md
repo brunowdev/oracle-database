@@ -199,3 +199,38 @@ vV>4;.Jp8Tu[lJSHSgchx1~;M!>$ga]t$"4
 <h2 id="fsmc">Funções de string e manipulação de caracteres</h2>
 
 Esta seção contém funções de manipulação de caracteres.
+
+
+Retorna o código na tabela ASCII do caractere recebido
+```sql
+SELECT ASCII('b') FROM DUAL;
+
+ASCII('B')
+----------
+        98
+
+SELECT ASCII('R') FROM DUAL;
+
+ASCII('R')
+----------
+        82
+
+SELECT ASCII('u') FROM DUAL;
+
+ASCII('U')
+----------
+       117
+
+SELECT ASCII('N') FROM DUAL;
+
+ASCII('N')
+----------
+        78
+
+SELECT ASCII('o') FROM DUAL;
+
+ASCII('O')
+----------
+       111
+
+```

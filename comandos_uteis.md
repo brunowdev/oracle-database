@@ -1,4 +1,6 @@
+# Comandos úteis
 
+Este arquivo possui comandos úteis no dia a dia
 
 
 Exibe todos os parâmetros do banco

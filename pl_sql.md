@@ -128,11 +128,19 @@ select dbms_random.value(1, 500) num from dual;
 Gera um número aleatório com 6 dígitos
 ```sql
 select dbms_random.value(100000, 999999) num from dual;
+
+       NUM
+----------
+515978.975
 ```
 
 Gera uma string capitaliza de 35 caracteres
 ```sql
 select dbms_random.string('U', 35) str from dual;
+
+STR
+--------------------------------------------------------------------------------
+TFGVRLKTGKGGLNEWQQUAEAUTTWXYLFTPZRR
 ```
 
 Gera uma string descapitaliza de 35 caracteres

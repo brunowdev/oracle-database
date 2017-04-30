@@ -3,11 +3,11 @@
 Este arquivo possui dicas com exemplos em SQL
 
 ## Tópicos
-1. [Como usar o binding](#Comousarobinding)
-2. [Criando uma função em Java que pode ser utilizada dentro do SQL](#Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL)
+1. [Como usar o binding](#htub)
+2. [Criando uma função em Java que pode ser utilizada dentro do SQL](#cfj)
 3. [Gerar caracteres e números aleatórios](#gcna)
 
-<h2 id="Comousarobinding">Como usar o binding</h2>
+<h2 id="htub">Como usar o binding</h2>
 
 Primeiro você deve criar as variáveis que serão o binding:
 
@@ -51,7 +51,7 @@ end;
 
 [Mais sobre o binding](http://www.adp-gmbh.ch/ora/sqlplus/use_vars.html)
 
-<h2 id="Criando-uma-função-em-Java-que-pode-ser-utilizada-dentro-do-SQL">Criando uma função em Java que pode ser utilizada dentro do SQL</h2>
+<h2 id="cfj">Criando uma função em Java que pode ser utilizada dentro do SQL</h2>
 
 Em alguns casos, é vantajoso ou mesmo a única solução viável utilizar um recurso da linguagem dentro do banco de dados. No caso do Java, pode ser criada uma classe com 
 métodos que poderão ser vinculados a funções que serão chamadas dentro de instruções SQL.

@@ -249,7 +249,16 @@ Aplicar lowercase na string
 ```sql
 SELECT LOWER('BRUNOWDEV') FROM DUAL;
 
-UPPER('brunowdev')
+UPPER('BRUNOWDEV')
 ---------------------------
-BRUNOWDEV
+brunowdev
+```
+
+Aplicar uppercase na primeira letra da string
+```sql
+SELECT INITCAP('brunowdev') FROM DUAL;
+
+INITCAP('brunowdev')
+---------------------------
+Brunowdev
 ```

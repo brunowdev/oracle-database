@@ -148,6 +148,11 @@ select dbms_random.string('A', 20) str from dual;
 Gera uma string alfanumérica de 20 caracteres com caracteres maíusculos
 ```sql
 select dbms_random.string('X', 20) str from dual;
+
+STR
+--------------------------------------------------------------------------------
+YD21I16RVZTW6HD58DAVELN91U3QAK4L6JK
+
 ```
 
 Gera uma string alfanumérica de 20 caracteres considerando qualquer caractere que pode ser impresso no console

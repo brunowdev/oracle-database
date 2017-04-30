@@ -113,6 +113,10 @@ O Oracle possui um pacote chamado **DBMS_RANDOM** que serve para geração de da
 Gera um número aleatório positivo ou negativo
 ```sql
 select dbms_random.random from dual;
+
+    RANDOM
+----------
+2116960498
 ```
 
 Gera um número aleatório entre 0 e 1

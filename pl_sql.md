@@ -123,6 +123,10 @@ select dbms_random.value from dual;
 Gera um número aleatório entre 0 e 500
 ```sql
 select dbms_random.value(1, 500) num from dual;
+
+       NUM
+----------
+290.010468
 ```
 
 Gera um número aleatório com 6 dígitos

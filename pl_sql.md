@@ -388,7 +388,7 @@ CONVERT('┬┐┬┐┬┐┬┐ABCDE','US7ASCII','WE8ISO8859P1'
 
 ```
 
-Retorna uma string (varchar2) contendo o código do tipo de dado, o tamanho em bytes e a representação interna do valor (o código dos caracteres). Esta função não é muito agradável para o oracle, por isso use com cuidado. Adicionei uma cláusula where para limitar os resultados e facilitar a visualização.
+Retorna uma string (varchar2) contendo o código do tipo de dado, o tamanho em bytes e a representação interna do valor (o código dos caracteres, decimal, octal, etc.). Esta função não é muito agradável para o oracle, por isso use com cuidado. Adicionei uma cláusula where para limitar os resultados e facilitar a visualização.
 No início, são aplicadas algumas formatações do SQL Plus.
 ```sql
 

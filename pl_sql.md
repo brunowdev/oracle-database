@@ -234,3 +234,22 @@ ASCII('O')
        111
 
 ```
+
+Aplicar uppercase na string
+
+```sql
+SELECT UPPER('brunowdev') FROM DUAL;
+
+UPPER('BRUNOWDEV')
+---------------------------
+BRUNOWDEV
+```
+
+Aplicar lowercase na string
+```sql
+SELECT LOWER('BRUNOWDEV') FROM DUAL;
+
+UPPER('brunowdev')
+---------------------------
+BRUNOWDEV
+```

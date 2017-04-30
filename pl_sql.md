@@ -387,3 +387,22 @@ CONVERT('┬┐┬┐┬┐┬┐ABCDE','US7ASCII','WE8ISO8859P1'
 ? ??? A B C D E
 
 ```
+
+Retorna uma string (varchar2) contendo o código do tipo de dado, o tamanho em bytes e a representação interna do valor (o código dos caracteres). Esta função não é muito agradável para o oracle, por isso use com cuidado. Adicionei uma cláusula where para limitar os resultados e facilitar a visualização.
+No início, são aplicadas algumas formatações do SQL Plus.
+```sql
+
+set linesize 121
+col dmp format a50
+
+SELECT table_name, DUMP(table_name) DMP FROM user_tables where rownum < 2;
+
+TABLE_NAME
+------------------------------------------------------------------------------------------
+DMP
+--------------------------------------------------
+ICOL$
+Typ=1 Len=5: 73,67,79,76,36
+
+
+```

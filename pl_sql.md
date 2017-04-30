@@ -262,3 +262,31 @@ INITCAP('brunowdev')
 ---------------------------
 Brunowdev
 ```
+
+Abaixo seguem as mesmas funções, porém, agora as funções possuem o prefixo **NLS**, ou seja, elas irão formatar de acordo com as regras do **LOCALE** e **ENCODING** definidos.
+
+```sql
+SELECT NLS_UPPER('brunowdev') FROM DUAL;
+
+NLS_UPPER('BRUNOWDEV')
+---------------------------
+BRUNOWDEV
+```
+
+Aplicar lowercase na string
+```sql
+SELECT NLS_LOWER('BRUNOWDEV') FROM DUAL;
+
+NLS_UPPER('BRUNOWDEV')
+---------------------------
+brunowdev
+```
+
+Aplicar uppercase na primeira letra da string
+```sql
+SELECT NLS_INITCAP('brunowdev') FROM DUAL;
+
+NLS_INITCAP('brunowdev')
+---------------------------
+Brunowdev
+```

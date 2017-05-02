@@ -4,29 +4,8 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 ## Tópicos
 
-* [Bind variables - The key to application performance](http://www.akadia.com/services/ora_bind_variables.html)
-* [Data Blocks, Extents, and Segments](https://docs.oracle.com/cd/B19306_01/server.102/b14220/logical.htm)
+1. [WebSocket](#wsocket)
 
-## Dicas de configuração
+<h2 id="wsocket">WebSocket</h2>
 
-* [Trocar porta padrão 8080](http://stackoverflow.com/questions/142868/change-oracle-port-from-port-8080)
-* [Trocar encoding e language (NLS_LANG)](http://docs.oracle.com/cd/E12102_01/books/AnyInstAdm784/AnyInstAdmPreInstall18.html)
-* [Trocar senha de outros schemas com SYSDBA](https://docs.oracle.com/cd/E18283_01/appdev.112/e10766/tdddg_connecting.htm)
-
-
-## SQL Plus
-
-* [Formatação do SQL no console](http://stackoverflow.com/questions/188118/how-do-i-format-my-oracle-queries-so-the-columns-dont-wrap)
-
-
-## Documentação e links oficiais
-
-Aqui estão links para documentação oficial. Cada um dos tópicos podem ser baixados individualmente em pdf ou epub.
-
-* [Oracle 11g](https://docs.oracle.com/cd/E11882_01/nav/portal_booklist.htm)
-
-## Sites e blogs
-
-* [Oracle Dev Gym - Desafios pela comunidade](https://plsqlchallenge.oracle.com)
-* [JAVA, SQL AND JOOQ](https://blog.jooq.org/)
-* [Database Journal - Oracle - DB2 - MS SQL - MySQL](http://www.databasejournal.com/)
+* [Handling ‘state’ in Java WebSocket applications](https://abhirockzz.wordpress.com/2017/04/27/handling-state-in-java-websocket-applications/)

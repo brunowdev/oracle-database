@@ -10,17 +10,17 @@ Executa os três estágios na sequência (OPEN, NOMOUNT, MOUNT)
 startup 
 ```
 
-Sobe o banco como nomount
+Sobe o banco como **nomount**
 ```sql
 startup nomount
 ```
 
-Altera o banco para o estado mount
+Altera o banco para o estado **mount**
 ```sql
 alter session mount;
 ```
 
-Altera o banco para o estado open
+Altera o banco para o estado **open**
 ```sql
 alter session open;
 ```

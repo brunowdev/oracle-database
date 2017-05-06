@@ -42,6 +42,11 @@ Executa o shutdown transactional (semelhante ao normal, mas não espera as seç�
 shutdown transactional
 ```
 
+Executa o shutdown immediate (não aguarda o fim das seções). O mais recomendado para ambiente de produção.
+```sql
+shutdown immediate
+```
+
 Exibe todos os parâmetros do banco
 ```sql
 select * from v$parameter;

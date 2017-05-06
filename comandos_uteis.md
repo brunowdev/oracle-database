@@ -15,6 +15,11 @@ Sobe o banco como nomount
 startup nomount
 ```
 
+Altera o banco para o estado mount
+```sql
+alter session mount;
+```
+
 Retorna o status do banco (OPEN, NOMOUNT, MOUNT)
 ```sql
 select status from v$instance;

@@ -47,6 +47,11 @@ Executa o shutdown immediate (não aguarda o fim das seções). O mais recomenda
 shutdown immediate
 ```
 
+Executa o shutdown abort (não aguarda o fim das seções e nem fecha os arquivos). O mais extremo, que só deve ser utilizado caso o banco esteja sendo corrompido. Exemplo: Controladora riscando o disco e corrompendo os dados.
+```sql
+shutdown abort
+```
+
 Exibe todos os parâmetros do banco
 ```sql
 select * from v$parameter;

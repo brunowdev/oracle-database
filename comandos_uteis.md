@@ -20,6 +20,11 @@ Altera o banco para o estado mount
 alter session mount;
 ```
 
+Altera o banco para o estado open
+```sql
+alter session open;
+```
+
 Retorna o status do banco (OPEN, NOMOUNT, MOUNT)
 ```sql
 select status from v$instance;

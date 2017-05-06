@@ -2,7 +2,6 @@
 
 Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
-
 Comandos de **startup**
 
 Executa os três estágios na sequência (OPEN, NOMOUNT, MOUNT)
@@ -31,6 +30,13 @@ select status from v$instance;
 ```
 
 Comandos de **shutdown**
+
+| Modo | abort | immediate | transactional | normal |
+| --- | --- | --- | --- |
+| Permite novas conexões | Não | Não | Não | Não |
+| Espera as sessões finalizarem | Não | Não | Não | Sim |
+| Espera as transações finalizarem | Não | Não | Sim | Sim |
+| Força checkpoint e fecha os arquivos | Não | Sim | Sim | Sim |
 
 Executa o shutdown padrão (aguarda até o fim das sessões e o commit/rollback das transações)
 ```sql

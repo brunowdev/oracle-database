@@ -43,17 +43,17 @@ Executa o shutdown padrão (aguarda até o fim das sessões e o commit/rollback 
 shutdown 
 ```
 
-Executa o shutdown **transactional** (semelhante ao normal, mas não espera as seções finalizarem)
+Executa o shutdown **transactional** (semelhante ao normal, mas não espera as sessões finalizarem)
 ```sql
 shutdown transactional
 ```
 
-Executa o shutdown **immediate** (não aguarda o fim das seções). O mais recomendado para ambiente de produção.
+Executa o shutdown **immediate** (não aguarda o fim das sessões). O mais recomendado para ambiente de produção.
 ```sql
 shutdown immediate
 ```
 
-Executa o shutdown **abort** (não aguarda o fim das seções e nem fecha os arquivos). O mais extremo, que só deve ser utilizado caso o banco esteja sendo corrompido. Exemplo: Controladora riscando o disco e corrompendo os dados.
+Executa o shutdown **abort** (não aguarda o fim das sessões e nem fecha os arquivos). O mais extremo, que só deve ser utilizado caso o banco esteja sendo corrompido. Exemplo: Controladora riscando o disco e corrompendo os dados.
 ```sql
 shutdown abort
 ```

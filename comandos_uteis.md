@@ -37,6 +37,11 @@ Executa o shutdown padrão (aguarda até o fim das sessões e o commit/rollback 
 shutdown 
 ```
 
+Executa o shutdown transactional (semelhante ao normal, mas não espera as seções finalizarem)
+```sql
+shutdown transactional
+```
+
 Exibe todos os parâmetros do banco
 ```sql
 select * from v$parameter;

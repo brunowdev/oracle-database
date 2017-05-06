@@ -3,9 +3,9 @@
 Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
 
-Comandos de startup
+Comandos de **startup**
 
-Executa os três estágios na sequência
+Executa os três estágios na sequência (OPEN, MOUNT, NOMOUNT)
 ```sql
 startup 
 ```

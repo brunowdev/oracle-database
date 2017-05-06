@@ -5,12 +5,12 @@ Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
 Comandos de **startup**
 
-Executa os três estágios na sequência (OPEN, MOUNT, NOMOUNT)
+Executa os três estágios na sequência (OPEN, NOMOUNT, MOUNT)
 ```sql
 startup 
 ```
 
-Retorna o status do banco (OPEN, MOUNT, NOMOUNT)
+Retorna o status do banco (OPEN, NOMOUNT, MOUNT)
 ```sql
 select status from v$instance;
 ```

@@ -27,3 +27,8 @@ Retorna o status do banco
 ```sql
 select status from v$instance;
 ```
+
+Retorna a versão do banco, arquitetura, versão de patch, etc.
+```sql
+select banner from v$version;
+```

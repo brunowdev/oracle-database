@@ -32,7 +32,7 @@ select status from v$instance;
 Comandos de **shutdown**
 
 | Modo | abort | immediate | transactional | normal |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Permite novas conexões | Não | Não | Não | Não |
 | Espera as sessões finalizarem | Não | Não | Não | Sim |
 | Espera as transações finalizarem | Não | Não | Sim | Sim |

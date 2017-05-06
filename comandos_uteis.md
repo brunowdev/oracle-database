@@ -3,6 +3,18 @@
 Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
 
+Comandos de startup
+
+Executa os três estágios na sequência
+```sql
+startup 
+```
+
+Retorna o status do banco (OPEN, MOUNT, NOMOUNT)
+```sql
+select status from v$instance;
+```
+
 Exibe todos os parâmetros do banco
 ```sql
 select * from v$parameter;
@@ -21,11 +33,6 @@ select * from dba_users OU select username from dba_users
 Lista todos os usuários/schemas, ids e data de criação
 ```sql
 select * from all_users
-```
-
-Retorna o status do banco
-```sql
-select status from v$instance;
 ```
 
 Retorna a versão do banco, arquitetura, versão de patch, etc.

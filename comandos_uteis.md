@@ -9,17 +9,17 @@ Executa os três estágios na sequência (OPEN, NOMOUNT, MOUNT)
 startup 
 ```
 
-Sobe o banco como **nomount**
+Sobe o banco como **nomount** (lê o arquivo de parâmetros, inicia a instância)
 ```sql
 startup nomount
 ```
 
-Altera o banco para o estado **mount**
+Altera o banco para o estado **mount** (lê o controlfile)
 ```sql
 alter session mount;
 ```
 
-Altera o banco para o estado **open**
+Altera o banco para o estado **open** (abre os datafiles e abre a instância, ou seja, permite novas conexões)
 ```sql
 alter session open;
 ```

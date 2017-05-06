@@ -30,6 +30,13 @@ Retorna o status do banco (OPEN, NOMOUNT, MOUNT)
 select status from v$instance;
 ```
 
+Comandos de **shutdown**
+
+Executa o shutdown padrão (aguarda até o fim das sessões e o commit/rollback das transações)
+```sql
+shutdown 
+```
+
 Exibe todos os parâmetros do banco
 ```sql
 select * from v$parameter;

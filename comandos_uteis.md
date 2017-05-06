@@ -10,6 +10,11 @@ Executa os três estágios na sequência (OPEN, NOMOUNT, MOUNT)
 startup 
 ```
 
+Sobe o banco como nomount
+```sql
+startup nomount
+```
+
 Retorna o status do banco (OPEN, NOMOUNT, MOUNT)
 ```sql
 select status from v$instance;

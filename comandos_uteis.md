@@ -22,3 +22,8 @@ Lista todos os usuários/schemas, ids e data de criação
 ```sql
 select * from all_users
 ```
+
+Retorna o status do banco
+```sql
+select status from v$instance;
+```

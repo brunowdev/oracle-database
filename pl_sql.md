@@ -410,43 +410,24 @@ col dmp format a50
 
 SELECT table_name, DUMP(table_name) DMP FROM user_tables where rownum < 2;
 
-TABLE_NAME
-------------------------------------------------------------------------------------------
-DMP
---------------------------------------------------
-ICOL$
+--Results
 Typ=1 Len=5: 73,67,79,76,36
-
-
 ```
 
 ```sql
 
 SELECT table_name, DUMP(table_name, 16) DMP FROM user_tables where rownum < 2;
 
-
-TABLE_NAME
-------------------------------------------------------------------------------------------
-DMP
---------------------------------------------------
-ICOL$
+--Results
 Typ=1 Len=5: 49,43,4f,4c,24
-
-
 ```
 
 ```sql
 
 SELECT table_name, DUMP(table_name, 16, 7, 4) DMP FROM user_tables where rownum < 2;
 
-
-TABLE_NAME
-------------------------------------------------------------------------------------------
-DMP
---------------------------------------------------
-ICOL$
-
-
+--Results
+Typ=1 Len=14: 55,52,45,4a
 ```
 
 [Mais funções de manipulação de strings](http://psoug.org/reference/string_func.html)

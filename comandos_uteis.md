@@ -102,7 +102,16 @@ select banner from v$version;
 
 Retorna o status dos tablespaces
 ```sql
-select * from dba_tablespaces
+select * from dba_tablespaces;
+```
+
+---------------------------------------
+
+---------------------------------------
+
+Retorna o diretório e os ids dos datafiles
+```sql
+select * from dba_data_files;
 ```
 
 ---------------------------------------

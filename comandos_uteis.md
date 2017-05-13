@@ -99,3 +99,10 @@ select banner from v$version;
 ```
 
 ---------------------------------------
+
+Retorna o status dos tablespaces
+```sql
+select * from dba_tablespaces
+```
+
+---------------------------------------

@@ -81,14 +81,14 @@ select * from v$session;
 
 Exibe todos os usuários do banco
 ```sql
-select * from dba_users OU select username from dba_users
+select * from dba_users OU select username from dba_users;
 ```
 
 ---------------------------------------
 
 Lista todos os usuários/schemas, ids e data de criação
 ```sql
-select * from all_users
+select * from all_users;
 ```
 
 ---------------------------------------

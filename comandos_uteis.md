@@ -107,11 +107,16 @@ select * from dba_tablespaces;
 
 ---------------------------------------
 
----------------------------------------
-
 Retorna o diretório e os ids dos datafiles
 ```sql
 select * from dba_data_files;
+```
+
+---------------------------------------
+
+Retorna os seguimentos criados para o usuário
+```sql
+select * from user_segments;
 ```
 
 ---------------------------------------

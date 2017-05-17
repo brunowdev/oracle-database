@@ -436,6 +436,16 @@ Trazer um valor alternativo quando um valor está nulo.
 select nvl(commission_pct, 0.00) commission_pct  from hr.employees where commission_pct is null;
 
 ```
+O NVL, espera por padão um tipo de dado alternativo do mesmo tipo esperado. Pode ser utilizada a função to_char, porém, todas as linhas serão convertidas para o mesmo tipo. O mais recomendado é utilizar o nvl2.
+
+
+NVL2
+
+```sql
+select nvl2(commission_pct, commission_pct, 0.00) commission_pct  from hr.employees;
+
+```
+O NVL2, permite tratar as duas situações, quando o valor existe e outra para quando ele é nulo.
 
 
 [Mais funções de manipulação de strings](http://psoug.org/reference/string_func.html)

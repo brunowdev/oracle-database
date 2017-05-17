@@ -1,6 +1,6 @@
-# PLSQL - Oracle
+# SQL & PLSQL - Oracle
 
-Este arquivo possui dicas com exemplos em SQL
+Este arquivo possui dicas de SQL e PLSQL
 
 ## Tópicos
 1. [Como usar o binding](#htub)

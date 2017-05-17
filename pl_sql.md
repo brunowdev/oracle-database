@@ -430,4 +430,12 @@ SELECT table_name, DUMP(table_name, 16, 7, 4) DMP FROM user_tables where rownum 
 Typ=1 Len=14: 55,52,45,4a
 ```
 
+Trazer um valor alternativo quando um valor está nulo.
+
+```sql
+select nvl(commission_pct, 0.00) commission_pct  from hr.employees where commission_pct is null;
+
+```
+
+
 [Mais funções de manipulação de strings](http://psoug.org/reference/string_func.html)

@@ -445,7 +445,7 @@ NVL2
 select nvl2(commission_pct, commission_pct, 0.00) commission_pct  from hr.employees;
 
 ```
-O NVL2, permite tratar as duas situações, quando o valor existe e outra para quando ele é nulo.
+O NVL2, permite tratar as duas situações, quando o valor existe e outra para quando ele é nulo. Mais informações sobre o NVL [aqui](http://www.dba-oracle.com/t_nvl_vs_nvl2.htm).
 
 
 [Mais funções de manipulação de strings](http://psoug.org/reference/string_func.html)

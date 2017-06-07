@@ -123,6 +123,5 @@ select * from user_segments;
 Criando roles de usuário
 
 // TODO
-```
+
 [Mais sobre a criação de roles](http://www.dba-oracle.com/t_oracle_read_only_user.htm)
----------------------------------------

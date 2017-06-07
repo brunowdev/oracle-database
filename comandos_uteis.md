@@ -1,4 +1,4 @@
-# Comandos úteis
+# Comandos úteis - DML/DDL
 
 Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 
@@ -119,4 +119,10 @@ Retorna os seguimentos criados para o usuário
 select * from user_segments;
 ```
 
+---------------------------------------
+Criando roles de usuário
+
+// TODO
+```
+[Mais sobre a criação de roles](http://www.dba-oracle.com/t_oracle_read_only_user.htm)
 ---------------------------------------

@@ -13,13 +13,12 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 * [Bind variables - The key to application performance](http://www.akadia.com/services/ora_bind_variables.html)
 * [Data Blocks, Extents, and Segments](https://docs.oracle.com/cd/B19306_01/server.102/b14220/logical.htm)
-* [Data Blocks, Extents, and Segments](https://docs.oracle.com/cd/B19306_01/server.102/b14220/logical.htm)
+* [Index Selection and Creation Strategy - Managing Indexes](http://its-all-about-oracle.blogspot.com.br/2013/08/index-selection-and-creation-strategy.html)
 
 ## Dicas de configuração
 
 * [Trocar porta padrão 8080](http://stackoverflow.com/questions/142868/change-oracle-port-from-port-8080)
 * [Trocar encoding e language (NLS_LANG)](http://docs.oracle.com/cd/E12102_01/books/AnyInstAdm784/AnyInstAdmPreInstall18.html)
-* [Index Selection and Creation Strategy - Managing Indexes](http://its-all-about-oracle.blogspot.com.br/2013/08/index-selection-and-creation-strategy.html)
 
 
 ## SQL Plus

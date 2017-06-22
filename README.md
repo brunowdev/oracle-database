@@ -37,3 +37,6 @@ Aqui estão links para documentação oficial. Cada um dos tópicos podem ser ba
 * [Oracle Dev Gym - Desafios pela comunidade](https://plsqlchallenge.oracle.com)
 * [JAVA, SQL AND JOOQ](https://blog.jooq.org/)
 * [Database Journal - Oracle - DB2 - MS SQL - MySQL](http://www.databasejournal.com/)
+* [Oracle Live SQL](https://livesql.oracle.com/apex/livesql/file/toc.html)
+
+

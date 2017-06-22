@@ -8,7 +8,7 @@ Este arquivo possui dicas de [SQL](https://pt.wikipedia.org/wiki/SQL) e [PLSQL](
 3. [Gerar caracteres e números aleatórios](#gcna)
 4. [Funções de string e manipulação de caracteres](#fsmc)
 
-<h2 id="htub">Como usar o binding</h2>
+<h2 id="htub">Como usar o <a href="https://docs.oracle.com/cd/B10501_01/appdev.920/a96584/oci05bnd.htm">binding<a></h2>
 
 Primeiro você deve criar as variáveis que serão o binding:
 

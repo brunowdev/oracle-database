@@ -134,7 +134,7 @@ OBS: Privilégios concedidos ou revogados via roles, é preciso reconecar com o 
 Verificar se a instância do Oracle está respondendo
 
 ```sql
-tnsping nomeDoTns;
+tnsping nomeDoTns
 ```
 
 ---------------------------------------

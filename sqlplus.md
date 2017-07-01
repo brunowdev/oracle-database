@@ -21,3 +21,9 @@ sqlplus usuario@tnsName
 ```
 
 Em seguida, será solicitada a senha.
+
+Para trocar o usuário ou executar uma conexão remota dentro do sqlplus:
+
+```sql
+conn usuario@tnsName
+```

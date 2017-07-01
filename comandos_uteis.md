@@ -127,6 +127,8 @@ Criando roles de usuário
 OBS: Privilégios concedidos ou revogados via roles, é preciso reconecar com o usuário.
 
 [Mais sobre a criação de roles](http://www.dba-oracle.com/t_oracle_read_only_user.htm)
+---------------------------------------
+
 
 Verificar se a instância do Oracle está respondendo
 

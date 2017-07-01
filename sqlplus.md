@@ -27,7 +27,7 @@ Para trocar o usuário ou executar uma conexão remota dentro do sqlplus:
 
 ```sql
 conn usuario@tnsName
-
+```
 
 <h2 id="fc">Formatação do console</h2>
 

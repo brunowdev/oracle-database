@@ -13,3 +13,11 @@ Para conectar via linha de comando à uma outra máquina:
 ```sql
 sqlplus "usuario/senha@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=enderecoHost)(Port=porta))(CONNECT_DATA=(SID=sidDaMaquina)))"
 ```
+
+Ou, caso o TNS tenha sido configurado previamente no tsnames.ora da máquina:
+
+```sql
+sqlplus usuario@tnsName
+```
+
+Em seguida, será solicitada a senha.

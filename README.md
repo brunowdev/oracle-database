@@ -6,7 +6,7 @@ Este repositório contém dicas e exemplos do banco de dados Oracle.
 
 * [SQL e PL SQL](sql_and_pl_sql.md)
 * [Comandos úteis](comandos_uteis.md)
-* [SQL Plus](sqlplus.sql)
+* [SQL Plus](sqlplus.md)
 * [SQL Developer](sqldeveloper.md)
 
 ## Tópicos

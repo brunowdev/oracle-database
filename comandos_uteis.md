@@ -1,4 +1,4 @@
-# Comandos úteis - DML/DDL
+## Comandos úteis - DML/DDL ##
 
 Este arquivo possui comandos úteis no dia a dia de um DBA Oracle
 

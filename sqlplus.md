@@ -5,6 +5,7 @@ Este arquivo possui dicas e comandos do utilitário [SQL Plus](https://pt.wikipe
 
 ## Tópicos
 1. [Conexão remota](#remotecon)
+2. [Formatação do console](#fc)
 
 <h2 id="remotecon">Conexão remota</h2>
 
@@ -26,4 +27,23 @@ Para trocar o usuário ou executar uma conexão remota dentro do sqlplus:
 
 ```sql
 conn usuario@tnsName
+
+
+<h2 id="fc">Formatação do console</h2>
+
+```sql
+-- Executar estes comandos dentro do console do SQL Plus, eles serão aplicados na sessão
+SET NEWPAGE NONE
+SET PAGESIZE 0
+SET SPACE 0
+SET LINESIZE 16000
+SET ECHO OFF
+SET FEEDBACK OFF
+SET VERIFY OFF
+SET HEADING OFF
+SET TERMOUT OFF
+SET TRIMOUT ON
+SET TRIMSPOOL ON
+SET COLSEP |
+
 ```

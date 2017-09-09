@@ -79,6 +79,9 @@ column status format a10
 column member format a50
 
 select type, status, member from v$logfile;
+
+# Versão do comando formatando coluna status: select type, NVL(status, 'OK') STATUS, member from v$logfile;
+
 ```
 
 ---------------------------------------

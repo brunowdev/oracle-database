@@ -72,6 +72,17 @@ select * from v$parameter;
 
 ---------------------------------------
 
+Exibir os arquivos de redo configurados
+```sql
+column type format a10
+column status format a10
+column member format a50
+
+select type, status, member from v$logfile;
+```
+
+---------------------------------------
+
 Exibe todos os processos rodando em segundo plano
 ```sql
 select * from v$session;

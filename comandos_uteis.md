@@ -74,9 +74,11 @@ select * from v$parameter;
 
 Exibir os arquivos de redo configurados
 ```sql
+# Formatação visual do sqlplus via linha de comando
 column type format a10
 column status format a10
 column member format a50
+# fim da formatação
 
 select type, status, member from v$logfile;
 
